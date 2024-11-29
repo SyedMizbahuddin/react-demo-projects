@@ -12,7 +12,7 @@ export default function LoadMore() {
       const url = `https://dummyjson.com/products?limit=20&skip=${count * 20}`;
       const res = await fetchData(url);
       if (res && res.products) {
-        setProducts((prev) => [...prev, ...data.products]);
+        setProducts((prev) => [...prev, ...res.products]);
       }
     } catch (e) {
       console.log(e);
