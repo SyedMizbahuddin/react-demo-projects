@@ -12,11 +12,13 @@ import ScrollIndicator from "./component/09-scroll-indicator";
 import TabTest from "./component/10-tabs/tsb-test";
 import ModalTest from "./component/11-modal";
 import GithubFinder from "./component/12-github-profile";
+import SearchAuto from "./component/13-search-auto-complete";
 
 function App() {
   return (
     <>
-      <GithubFinder />
+      <SearchAuto />
+      {/* <GithubFinder /> */}
       {/* <ModalTest /> */}
       {/* <TabTest /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
