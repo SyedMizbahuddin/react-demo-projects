@@ -7,11 +7,13 @@ import TreeView from "./component/06-tree-view";
 import { menus } from "./component/06-tree-view/data";
 import QRCodeGenerator from "./component/07-qr-code";
 import LightDarkMode from "./component/08-switch-theme";
+import ScrollIndicator from "./component/09-scroll-indicator";
 
 function App() {
   return (
     <>
-      <LightDarkMode />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <LightDarkMode />
       <QRCodeGenerator />
       <TreeView menu={menus} />
       <LoadMore />
@@ -22,7 +24,7 @@ function App() {
       />
       <StarRating noOfStars={10} />
       <RandomColor />
-      <Accordion />
+      <Accordion /> */}
     </>
   );
 }
