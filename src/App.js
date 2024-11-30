@@ -13,11 +13,16 @@ import TabTest from "./component/10-tabs/tsb-test";
 import ModalTest from "./component/11-modal";
 import GithubFinder from "./component/12-github-profile";
 import SearchAuto from "./component/13-search-auto-complete";
+import FeatureContextState from "./component/15-feature-flag/context";
+import FeatureFlags from "./component/15-feature-flag";
 
 function App() {
   return (
     <>
-      <SearchAuto />
+      <FeatureContextState>
+        <FeatureFlags />
+      </FeatureContextState>
+      {/* <SearchAuto /> */}
       {/* <GithubFinder /> */}
       {/* <ModalTest /> */}
       {/* <TabTest /> */}
