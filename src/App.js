@@ -6,10 +6,12 @@ import LoadMore from "./component/05-load-more";
 import TreeView from "./component/06-tree-view";
 import { menus } from "./component/06-tree-view/data";
 import QRCodeGenerator from "./component/07-qr-code";
+import LightDarkMode from "./component/08-switch-theme";
 
 function App() {
   return (
     <>
+      <LightDarkMode />
       <QRCodeGenerator />
       <TreeView menu={menus} />
       <LoadMore />
