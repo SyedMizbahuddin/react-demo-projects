@@ -11,11 +11,13 @@ import LightDarkMode from "./component/08-switch-theme";
 import ScrollIndicator from "./component/09-scroll-indicator";
 import TabTest from "./component/10-tabs/tsb-test";
 import ModalTest from "./component/11-modal";
+import GithubFinder from "./component/12-github-profile";
 
 function App() {
   return (
     <>
-      <ModalTest />
+      <GithubFinder />
+      {/* <ModalTest /> */}
       {/* <TabTest /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <LightDarkMode />
