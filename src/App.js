@@ -8,11 +8,13 @@ import { menus } from "./component/06-tree-view/data";
 import QRCodeGenerator from "./component/07-qr-code";
 import LightDarkMode from "./component/08-switch-theme";
 import ScrollIndicator from "./component/09-scroll-indicator";
+import TabTest from "./component/10-tabs/tsb-test";
 
 function App() {
   return (
     <>
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      <TabTest />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <LightDarkMode />
       <QRCodeGenerator />
       <TreeView menu={menus} />

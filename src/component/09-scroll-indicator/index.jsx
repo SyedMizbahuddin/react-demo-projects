@@ -33,7 +33,7 @@ export default function ScrollIndicator({ url }) {
     setScrollPercentage((howMuchScrolled / height) * 100);
   }
 
-  // return in UseEffect is for Clean up
+  //LEARN return in UseEffect is for Clean up
   useEffect(() => {
     window.addEventListener("scroll", handleScrollPercentage);
 
