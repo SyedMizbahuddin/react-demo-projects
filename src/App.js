@@ -5,10 +5,12 @@ import StarRating from "./component/03-star-rating";
 import LoadMore from "./component/05-load-more";
 import TreeView from "./component/06-tree-view";
 import { menus } from "./component/06-tree-view/data";
+import QRCodeGenerator from "./component/07-qr-code";
 
 function App() {
   return (
     <>
+      <QRCodeGenerator />
       <TreeView menu={menus} />
       <LoadMore />
       <ImageSlider
